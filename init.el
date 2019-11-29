@@ -172,7 +172,7 @@
  '(magit-diff-use-overlays nil)
  '(package-selected-packages
    (quote
-    (nyan-mode markdown-mode flycheck phpcbf anzu doom-modeline doom-themes material-theme color-theme-sanityinc-tomorrow monokai-theme editorconfig php-mode neotree web-mode)))
+    (yasnippet nyan-mode markdown-mode flycheck phpcbf anzu doom-modeline doom-themes material-theme color-theme-sanityinc-tomorrow monokai-theme editorconfig php-mode neotree web-mode)))
  '(pos-tip-background-color "#FFFACE")
  '(pos-tip-foreground-color "#000000")
  '(weechat-color-list
