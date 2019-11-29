@@ -38,4 +38,4 @@ Multiple themes are included (doom, material, sanity, monokai), but it is config
 
 # TODO
 
-[ ] Add Snippets
+- [ ] Add Snippets
