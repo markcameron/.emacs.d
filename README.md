@@ -36,6 +36,6 @@ Multiple themes are included (doom, material, sanity, monokai), but it is config
 
 `phpcbf` automatically formats PHP files to be PSR-2 compliant on save
 
-# Todo
+# TODO
 
-[] Add Snippets
+[ ] Add Snippets
