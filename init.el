@@ -33,8 +33,8 @@
 
 ;; Default Folders [HOME]
 ;; (setq homepath "C:/web/www/")
-;(setq default-directory "/var/www/")
-(setq default-directory "C:/web/www")
+(setq default-directory "/var/www/")
+;(setq default-directory "C:/web/www")
 
 ;; Make window transparent
 ;(set-frame-parameter (selected-frame) 'alpha '(90 90)) ;(<active> [<inactive>])
@@ -172,7 +172,7 @@
  '(magit-diff-use-overlays nil)
  '(package-selected-packages
    (quote
-    (yasnippet nyan-mode markdown-mode flycheck phpcbf anzu doom-modeline doom-themes material-theme color-theme-sanityinc-tomorrow monokai-theme editorconfig php-mode neotree web-mode)))
+    (dockerfile-mode yasnippet nyan-mode markdown-mode flycheck phpcbf anzu doom-modeline doom-themes material-theme color-theme-sanityinc-tomorrow monokai-theme editorconfig php-mode neotree web-mode)))
  '(pos-tip-background-color "#FFFACE")
  '(pos-tip-foreground-color "#000000")
  '(weechat-color-list
