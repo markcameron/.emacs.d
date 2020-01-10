@@ -1,6 +1,6 @@
 # .emacs.d
 
-Emacs config to use across different machines by storing all the packages in the `/epla` directory.
+Emacs config to use across different machines by storing all the packages in the `/elpa` directory.
 
 ## Installation
 
@@ -34,8 +34,24 @@ Multiple themes are included (doom, material, sanity, monokai), but it is config
 
 # PHP specific
 
-`phpcbf` automatically formats PHP files to be PSR-2 compliant on save
+`phpcbf` automatically formats PHP files to be PSR-2 compliant on save.
+
+## Install
+
+[https://github.com/squizlabs/PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) for info on `phpcbf` and `phpcs`.
+
+Otherwise you can install it like this:
+
+```
+wget https://squizlabs.github.io/PHP_CodeSniffer/phpcbf.phar
+mv phpcbf.phar /usr/local/sbin/phpcbf
+chmod 764 /usr/local/sbin/phpcbf
+```
+
+You will also need to have PHP installed on the machine and have the `php-xml` extension enabled.
+
+*Haven't managed to get this to work on windows yet. You can remove the `(add-hook 'php-mode-hook 'phpcbf-enable-on-save)` from the `init.el` file to stop this functionality.
 
 # TODO
 
-- [ ] Add Snippets
+- [X] Add Snippets
