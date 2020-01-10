@@ -50,7 +50,7 @@ chmod 764 /usr/local/sbin/phpcbf
 
 You will also need to have PHP installed on the machine and have the `php-xml` extension enabled.
 
-*Haven't managed to get this to work on windows yet. You can remove the `(add-hook 'php-mode-hook 'phpcbf-enable-on-save)` from the `init.el` file to stop this functionality.
+***NOTE**: Haven't managed to get this to work on windows yet. You can remove the `(add-hook 'php-mode-hook 'phpcbf-enable-on-save)` from the `init.el` file to stop this functionality.*
 
 # TODO
 
