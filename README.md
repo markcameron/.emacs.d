@@ -8,11 +8,21 @@ Clone this repo and pit it in your `~/` directory (`C:\Users\<USERNAME>\AppData\
 
 Open the `.emacs.d/init.el` file and modify the `(setq default-directory "C:/web/www")` to match your folder structure, so that a `C-x C-f` opens by default there.
 
+If you want to use to bundled Monaco font, then you will need to install it if you don't already have it.
+
+**Windows or GNU/Linux GUI**
+
+Double click the monaco.ttf file and click on install.
+
+**Gnu/Linux CLI**
+
+Copy the Monaco.ttf file to the `~/.fonts` directory (create if needed) and then run `fc-cache -f -v` to rebuild the font cache.
+
 Open Emacs and run the following:
 
 `M-x all-the-icons-install-fonts`
 
-If on GNU Linux/Mac it should install automatically. On Windows you'll be prompted for a download location, and once downloaded you'll need to go and manually install each font by clicking on it and then the install button.
+If on GNU Linux/Mac it should install automatically. On Windows you'll be prompted for a download location, and once downloaded you'll need to go and manually install each font by double clicking on it and then pressing the install button.
 
 Re-open Emacs and all should be running smoothly.
 
