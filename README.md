@@ -2,6 +2,8 @@
 
 Emacs config to use across different machines by storing all the packages in the `/elpa` directory.
 
+![](https://static.kram.xyz/emacs-github-preview.png)
+
 ## Installation
 
 Clone this repo and pit it in your `~/` directory (`C:\Users\<USERNAME>\AppData\Roaming\` on windows).
