@@ -140,6 +140,15 @@
 ;; PHP Code sniffer
 (require 'phpcbf)
 
+;; PHP Doc Block
+(add-to-list 'load-path "~/.emacs.d/packages-github/emacs-php-doc-block")
+(require 'php-doc-block)
+
+;; (add-hook 'php-mode-hook
+;;           (lambda ()
+;;               (local-set-key (kbd "<C-x C-g>") 'php-doc-block)))
+(global-set-key (kbd "C-x C-g") 'php-doc-block)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
